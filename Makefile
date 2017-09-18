@@ -17,11 +17,15 @@ include sub.mk
 
 ## Content
 
+now:
+	@echo $(theobio_group)
+
 ## Private repo for lab (to replace private lab wiki)
 tdirs += lab
 
 ## Lab meeting repo (publicly viewable)
-tdirs += Lab_meeting
+## Already in repos.def
+## tdirs += Lab_meeting
 
 dirs += $(tdirs)
 theobio_group += $(tdirs)
