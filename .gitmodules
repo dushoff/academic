@@ -1,3 +1,6 @@
 [submodule "makestuff"]
 	path = makestuff
 	url = https://github.com/dushoff/makestuff.git
+[submodule "Lab_meeting"]
+	path = Lab_meeting
+	url = https://github.com/mac-theobio/Lab_meeting.git
