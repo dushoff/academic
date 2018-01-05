@@ -27,10 +27,10 @@ tdirs += lab
 ## Already in repos.def
 ## tdirs += Lab_meeting
 
-dirs += $(tdirs)
 theobio_group += $(tdirs)
+dirs += $(tdirs) Lab_meeting
 
-mdirs = Lab_meeting $(tdirs)
+mdirs += $(dirs)
 
 Sources += $(dirs)
 
