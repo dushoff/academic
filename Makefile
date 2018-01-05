@@ -30,6 +30,8 @@ tdirs += lab
 dirs += $(tdirs)
 theobio_group += $(tdirs)
 
+mdirs = Lab_meeting $(tdirs)
+
 Sources += $(dirs)
 
 ######################################################################
