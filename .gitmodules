@@ -4,3 +4,6 @@
 [submodule "Lab_meeting"]
 	path = Lab_meeting
 	url = https://github.com/mac-theobio/Lab_meeting.git
+[submodule "lab"]
+	path = lab
+	url = https://github.com/mac-theobio/lab.git
