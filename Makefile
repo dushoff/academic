@@ -10,6 +10,16 @@ target: $(target)
 Sources = Makefile .gitignore README.md upstuff.mk LICENSE.md
 -include upstuff.mk
 
+######################################################################
+
+## Content
+
+## clonedirs += Datsid
+Datsid:
+	git clone https://github.com/Outbreak-analysis/$@
+
+Ignore += $(clonedirs)
+
 ##################################################################
 
 ## Previous Content
@@ -25,7 +35,7 @@ Sources = Makefile .gitignore README.md upstuff.mk LICENSE.md
 
 -include $(ms)/git.mk
 -include $(ms)/visual.mk
--include $(ms)/modules.mk
+-include $(ms)/hybrid.mk
 
 # -include $(ms)/wrapR.mk
-# -include $(ms)/oldlatex.mk
+# -include $(ms)/texdeps.mk

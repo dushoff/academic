@@ -13,3 +13,10 @@ commit.default
 dotdir/
 clonedir/
 *.oldfile
+makestuff
+up.time
+commit.time
+commit.default
+dotdir/
+clonedir/
+*.oldfile
