@@ -7,7 +7,7 @@ target: $(target)
 
 ##################################################################
 
-Sources = Makefile .gitignore README.md upstuff.mk LICENSE.md
+Sources = Makefile .ignore README.md upstuff.mk LICENSE.md
 -include upstuff.mk
 
 ######################################################################
