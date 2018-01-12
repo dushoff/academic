@@ -7,15 +7,12 @@ target: $(target)
 
 ##################################################################
 
-
-Sources = Makefile .gitignore README.md sub.mk LICENSE.md
-include sub.mk
--include $(ms)/repos.def
-# include $(ms)/perl.def
+Sources = Makefile .gitignore README.md upstuff.mk LICENSE.md
+-include upstuff.mk
 
 ##################################################################
 
-## Content
+## Previous Content
 
 ## Private repo for lab (to replace private lab wiki)
 ## tdirs += lab
