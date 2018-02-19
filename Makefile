@@ -14,10 +14,11 @@ Sources = Makefile .ignore README.md upstuff.mk LICENSE.md
 
 ## Content
 
-## clonedirs += Datsid
+clonedirs += Datsid
 Datsid:
 	git clone https://github.com/Outbreak-analysis/$@
 
+clonedirs += smb-mathepi
 smb-mathepi:
 	git clone https://github.com/mac-theobio/$@
 
