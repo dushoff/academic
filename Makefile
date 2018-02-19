@@ -18,6 +18,9 @@ Sources = Makefile .ignore README.md upstuff.mk LICENSE.md
 Datsid:
 	git clone https://github.com/Outbreak-analysis/$@
 
+smb-mathepi:
+	git clone https://github.com/mac-theobio/$@
+
 Ignore += $(clonedirs)
 
 ##################################################################
