@@ -22,6 +22,10 @@ clonedirs += smb-mathepi
 smb-mathepi:
 	git clone https://github.com/mac-theobio/$@
 
+clonedirs += notebook
+notebook:
+	git clone -b gh-pages https://github.com/dushoff/$@
+
 Ignore += $(clonedirs)
 
 ##################################################################
