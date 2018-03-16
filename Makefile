@@ -26,6 +26,10 @@ clonedirs += notebook
 notebook:
 	git clone -b gh-pages https://github.com/dushoff/$@
 
+clonedirs += Erlang_link
+Erlang_link:
+	git clone https://github.com/davidchampredon/link-re-erlang.git $@
+
 Ignore += $(clonedirs)
 
 ##################################################################
