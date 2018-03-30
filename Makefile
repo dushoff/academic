@@ -30,6 +30,10 @@ clonedirs += Erlang_link
 Erlang_link:
 	git clone https://github.com/davidchampredon/link-re-erlang.git $@
 
+clonedir += BickoExercise
+BickoExercise:
+	git clone https://github.com/CYGUBICKO/Phd_Exercises.git $@
+
 Ignore += $(clonedirs)
 
 ##################################################################
