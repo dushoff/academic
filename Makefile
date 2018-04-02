@@ -30,6 +30,15 @@ clonedirs += Erlang_link
 Erlang_link:
 	git clone https://github.com/davidchampredon/link-re-erlang.git $@
 
+rabies_db_pipeline:
+	git clone https://github.com/wzmli/$@
+
+rabies_R0:
+	git clone https://github.com/wzmli/$@
+
+plague:
+	git clone https://github.com/davidearn/$@
+
 Ignore += $(clonedirs)
 
 ##################################################################
