@@ -26,6 +26,10 @@ clonedirs += notebook
 notebook:
 	git clone -b gh-pages https://github.com/dushoff/$@
 
+clonedirs += competence_overleaf
+competence_overleaf:
+	git clone https://git.overleaf.com/15384993fdvkjzsjkfdj $@
+
 clonedirs += Erlang_link
 Erlang_link:
 	git clone https://github.com/davidchampredon/link-re-erlang.git $@
