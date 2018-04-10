@@ -26,13 +26,33 @@ clonedirs += notebook
 notebook:
 	git clone -b gh-pages https://github.com/dushoff/$@
 
+clonedirs += competence_overleaf
+competence_overleaf:
+	git clone https://git.overleaf.com/15384993fdvkjzsjkfdj $@
+
 clonedirs += Erlang_link
 Erlang_link:
 	git clone https://github.com/davidchampredon/link-re-erlang.git $@
 
+clonedirs += rabies_db_pipeline
+rabies_db_pipeline:
+	git clone https://github.com/wzmli/$@
+
+clonedirs += rabies_R0
+rabies_R0:
+	git clone https://github.com/wzmli/$@
+
+clonedirs += plague
+plague:
+	git clone https://github.com/davidearn/$@
+
 clonedirs += BickoExercise
 BickoExercise:
 	git clone https://github.com/CYGUBICKO/Phd_Exercises.git $@
+
+clonedirs += Alberta_age
+Alberta_age:
+	git clone https://git.overleaf.com/8974471gkzqmdgbwvtj $@
 
 Ignore += $(clonedirs)
 
