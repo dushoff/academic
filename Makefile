@@ -26,9 +26,9 @@ clonedirs += notebook
 notebook:
 	git clone -b gh-pages https://github.com/dushoff/$@
 
-clonedirs += competence_overleaf
-competence_overleaf:
-	git clone https://git.overleaf.com/15384993fdvkjzsjkfdj $@
+clonedirs += competence
+competence:
+	git clone https://github.com/PulliamLab-UFL/competenceFramework.git $@
 
 clonedirs += Erlang_link
 Erlang_link:
@@ -50,11 +50,23 @@ clonedirs += BickoExercise
 BickoExercise:
 	git clone https://github.com/CYGUBICKO/Phd_Exercises.git $@
 
+clonedirs += multisim
+multisim:
+	git clone https://github.com/bbolker/discretization.git $@
+
+## Overleaf!
 clonedirs += Alberta_age
 Alberta_age:
 	git clone https://git.overleaf.com/8974471gkzqmdgbwvtj $@
 
+clonedirs += madagascar
+madagascar:
+	git clone https://github.com/Outbreak-analysis/madagascar_tb_hiv.git $@
 Ignore += $(clonedirs)
+
+clonedirs += I3D
+I3D:
+	git clone https://github.com/dushoff/$@
 
 ##################################################################
 
