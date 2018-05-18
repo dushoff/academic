@@ -14,6 +14,10 @@ Sources = Makefile .ignore README.md upstuff.mk LICENSE.md
 
 ## Content
 
+clonedirs += louseplague
+louseplague:
+	git clone https://github.com/bbolker/$@
+
 clonedirs += Datsid
 Datsid:
 	git clone https://github.com/Outbreak-analysis/$@
